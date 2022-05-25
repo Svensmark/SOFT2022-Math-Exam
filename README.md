@@ -12,6 +12,8 @@ These are scenarios of data input that could either cause fast calculations (bes
 
 Scaling is the term that defines how well the algorithm handles larger inputs. Almost every algorithm is efficient at an input of 3 objects, but there will be a significant difference in how well they scale if the input is 3 million objects. This of course means that if they scale badly, they take longer to compute which usually, but not always, is a bad thing (not bad in hashing algorithms as longer usually are more secure). But this is where time becomes a factor, as big inputs can mean very long computing times.
 
+The restriction is not limited to time, but also memory of the used machine. Given an algorithm saving data in the memory in each recursion, then the O notation can also be a reflection of how much data the memory has to handle, which similar to time, can be a restriction when it comes to large amount of data inputs of the algorithm.
+
 
 ## 2. Sorting with and without recursio
 ## 3. Searching with binary search, hash tables and search trees
