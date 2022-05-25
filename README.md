@@ -15,7 +15,7 @@ Scaling is the term that defines how well the algorithm handles larger inputs. A
 The restriction is not limited to time, but also memory of the used machine. Given an algorithm saving data in the memory in each recursion, then the O notation can also be a reflection of how much data the memory has to handle, which similar to time, can be a restriction when it comes to large amount of data inputs of the algorithm.
 
 
-## 2. Sorting with and without recursio
+## 2. Sorting with and without recursion
 ## 3. Searching with binary search, hash tables and search trees
 ## 4. Graph properties, spanning trees and basic algorithms
 ## 5. Algorithms for shortest path in graphs
