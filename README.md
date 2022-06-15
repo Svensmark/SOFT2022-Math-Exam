@@ -25,6 +25,31 @@ The restriction is not limited to time, but also memory of the used machine. Giv
 **Binary trees** are in many ways similar to a binary search, however instead of it being an algorithm, it is basically a form of data structure for your data. This means that you cannot use array algorithms on this, however in its nature it is very easy to search for values in. The first node in the binary tree is called the *root*, each connected node is called a *child*, or *children*, unless theyre the last node of which they're called a *leaf*.
 
 ## 4. Graph properties, spanning trees and basic algorithms
+
+A graph is a structure made up of nodes / **vertices** (**vertex**) and connections between them (**edge**s). The basic properties:
+
+* Distance between two vertices
+* Eccentricity of a vertex
+* Radius of connected Graph
+* Diameter of a Graph
+* Central point
+* Circumference
+* Girth
+
+**Distance** is basically the number of edges in a shortest path between vertex X and vertex Y. If there are many paths connecting two vertices, then the **shortest path is considered as the distance**  between the two vertices. Distance between two vertices is denoted by d(X, Y).
+
+**Eccentricity** of a vertex is the maximum distance between a vertex to all other vertices. It is denoted by e(V).
+
+The **radius** of a connected graph is the minimum eccentricity from all the vertices. In other words, the minimum among all the distances between a vertex to all other vertices is called as the radius of the graph. It is denoted by r(G).
+
+**Diameter** of a graph is the maximum eccentricity from all the vertices. In other words, the maximum among all the distances between a vertex to all other vertices is considered as the diameter of the graph G. It is denoted by d(G).
+
+If the eccentricity of the graph is equal to its radius, then it is known as **central point** of the graph.
+
+The total number of edges in the longest cycle of graph G is known as the **circumference** of G.
+
+The total number of edges in the shortest cycle of graph G is known as **girth**. It is denoted by g(G).
+
 ## 5. Algorithms for shortest path in graphs
 ## 6. Critical path in graphs
 ## 7. Structure and use of conditional / propositional logic statements
