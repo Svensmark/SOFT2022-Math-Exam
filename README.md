@@ -17,6 +17,9 @@ The restriction is not limited to time, but also memory of the used machine. Giv
 
 ## 2. Sorting with and without recursion
 ## 3. Searching with binary search, hash tables and search trees
+
+**Binary Searching** is a way of searching through a sorted array of data. The best way to analogize it to a real event, is if you were to look for a specific student paper in a sorted stack of sutdent papers. You woulnd't go over them one by one from beginning to end, but rather you would estimate the whereabouts of the paper first, and then do it again. If we were to say they were sorted by first name letters, you can estimate that a person named Laura would be around in the middle of the stack, and a person named Albert would usually be in the front. This is basically what binary searching does, as it first of all checks the center element of the array 
+
 ## 4. Graph properties, spanning trees and basic algorithms
 ## 5. Algorithms for shortest path in graphs
 ## 6. Critical path in graphs
