@@ -53,7 +53,7 @@ The total number of edges in the shortest cycle of graph G is known as **girth**
 **Spanning trees** is the idea of removing edges from a graph and still have all vertices connected, but no circuits. If the spanning trees appear to be identical, even if different edges are removed, you call them *isomorphic*, if they appear to be unique, then they're non-isomorphic.
 
 **Prims Algorithm** Minimum Spanning Tree (MST) - This algorithm finds the algorithm with the tree with the smallest edge weight of the graph.
-![Alt text](\Pictures\Minimum Spanning Tree.JPG "Minimum Spanning Tree")
+![Alt text](\Pictures\Minimum Spanning Tree.JPG?raw=true "Minimum Spanning Tree")
 
 ## 5. Algorithms for shortest path in graphs
 ## 6. Critical path in graphs
