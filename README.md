@@ -16,6 +16,15 @@ The restriction is not limited to time, but also memory of the used machine. Giv
 
 
 ## 2. Sorting with and without recursion
+
+Sorting algorithms can utulize recursion, as it allows the method to have a time complexity of O(nlogn), instead of the bubble sorts time complexity of O(n^2). Recursion simply means that you call the method within itself.
+
+First of all we can look at the *mergesort* algorithm.
+
+The mergesort algorithm is basically a division of an array until all elements are atomically divided, and are then merged into eachother based on their values.
+
+Non recursive sorting methods, like a bubble sort usually is less effective, as they have a high time complexity. If we take the bubble sort example, we iterate over the array O(n^2) times in worse case scenario.
+
 ## 3. Searching with binary search, hash tables and search trees
 
 **Binary Searching** is a way of searching through a sorted array of data. The best way to analogize it to a real event, is if you were to look for a specific student paper in a sorted stack of sutdent papers. You woulnd't go over them one by one from beginning to end, but rather you would estimate the whereabouts of the paper first, and then do it again. If we were to say they were sorted by first name letters, you can estimate that a person named Laura would be around in the middle of the stack, and a person named Albert would usually be in the front. This is basically what binary searching does, as it first of all checks the center element of the array and then decides wether the element you are searching for is in either the left side or the right side of the array. Again, this is why this only works on sorted arrays, as unsorted arrays does not have definite positions you can search for. This means that the time complexity for this algorithm is O(log(n)) as you are seeing how many times you can possible divide the array amount by 2 before you have a single element left. - In short, this is a search algorithm to find a *target* value in a *sorted* array.
