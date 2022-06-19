@@ -66,6 +66,16 @@ The total number of edges in the shortest cycle of graph G is known as **girth**
 ![After](/Pictures/Minimum%20Spanning%20Tree%20Result.JPG "Minimum Spanning Tree Result")
 
 ## 5. Algorithms for shortest path in graphs
+
+**Dijkstra's algorithm** is an excellent example of how to find the shortest path from one vertex to another in a graph.
+
+First the graph must have weighted edges, so there's a path to calculate from, and second we assign values to all vertices in the given graph. The start point we assign 0, as there is no distance from starting point to starting point, and every other vertices is assigned value infinite, as we want to make sure that first value compared is less. We pick the vertex with minimum cost, in this case Vertex 0, and then update adjacent vertices to check if their distance is shorter than already given. The updated value is the chosen vertex distance and edge of connection. This is done repeately through the entire graph until every vertex has been updated with a value.
+
+![Visualization1](/Pictures/Dijkstras%20Algorithm%201.JPG "Dijkstras Algorithm 1")
+![Result1](/Pictures/Dijkstras%20Algorithm%20Result%201.JPG "Dijkstras Algorithm Result 1")
+![Visualization2](/Pictures/Dijkstras%20Algorithm%202.JPG "Dijkstras Algorithm 2")
+![Result2](/Pictures/Dijkstras%20Algorithm%20Result%202.JPG "Dijkstras Algorithm Result 2")
+
 ## 6. Critical path in graphs
 ## 7. Structure and use of conditional / propositional logic statements
 ## 8. Construction and use of regular expressions and finite state automata
