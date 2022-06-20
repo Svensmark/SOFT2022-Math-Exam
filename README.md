@@ -77,6 +77,17 @@ First the graph must have weighted edges, so there's a path to calculate from, a
 ![Result2](/Pictures/Dijkstras%20Algorithm%20Result%202.JPG "Dijkstras Algorithm Result 2")
 
 ## 6. Critical path in graphs
+
+**Critical path** in graphs is the longest path to the given end vertex. However, this means that not only must vertices have values (typically called tasked and reffered to time of completion), edges must also have directions. A path is a complete sequence from first task to end vertex.
+
+The critical path algorithm Looks for the longest path and then removes the first task in the path. The path is saved in a list, that we call the priority list. This is done repeately until there is no tasks left.
+
+![CritPath1](/Pictures/Critical%20Path%20Algorithm%201.JPG "Critical Path 1")
+![CritPath2](/Pictures/Critical%20Path%20Algorithm%202.JPG "Critical Path 2")
+![PriorityList1](/Pictures/Critical%20Path%20Priority%20List%201.JPG "Priority List 1")
+
+After having created the priority list of the graph, we can now create the optimized schedule of how we should prioritize the tasks. If we have 2 processesors the tasks is then divided by priority and when theyre ready to be completed (as the requirement is for previous tasks to be completed).
+
 ## 7. Structure and use of conditional / propositional logic statements
 ## 8. Construction and use of regular expressions and finite state automata
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
