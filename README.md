@@ -88,6 +88,8 @@ The critical path algorithm Looks for the longest path and then removes the firs
 
 After having created the priority list of the graph, we can now create the optimized schedule of how we should prioritize the tasks. If we have 2 processesors the tasks is then divided by priority and when theyre ready to be completed (as the requirement is for previous tasks to be completed).
 
+![Schedule](/Pictures/Critical%20Path%20Schedule.JPG "Schedule")
+
 ## 7. Structure and use of conditional / propositional logic statements
 ## 8. Construction and use of regular expressions and finite state automata
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
