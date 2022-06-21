@@ -114,6 +114,7 @@ When connecting two propersitional statements with connectives, we have created 
 
 ## 8. Construction and use of regular expressions and finite state automata
 
+**Definition of Regular Expressions (RegEx):** Regular expressions allow us to check a string of characters for matches, to make sure that it conforms to a pattern to that regular expression.
 
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
 
@@ -125,3 +126,5 @@ Opposite a tautology, we have a condradiction, that is an assertion of Propositi
 
 ![DeMorgan1](/Pictures/De%20Morgans%20Law%201.JPG "De Morgans Law 1")
 ![DeMorgan2](/Pictures/De%20Morgans%20Law%202.JPG "De Morgans Law 2")
+![Equivalencies](/Pictures/Table%20of%20Logical%20Equivalencies.JPG "Equivalencies")
+![EquivalenciesExample](/Pictures/Example%20of%20usage%20Logical%20equivalencies.JPG "Example of usage of equivalencies")
