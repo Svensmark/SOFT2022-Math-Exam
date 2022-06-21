@@ -113,4 +113,17 @@ When connecting two propersitional statements with connectives, we have created 
 ![Schedule](/Pictures/Truthtable.JPG "Schedule")
 
 ## 8. Construction and use of regular expressions and finite state automata
+
+
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
+
+The correct definition:
+
+The compound propositions p and q are said to be logically equivalent if p ↔ q is a Tautology. Logical Equivalence is denoted by ≡ or (pil med to streger begge veje).
+
+From this we need to know what a tautology is, and the definition of a tautology is: *a statement that is true by necessity or by virtue of its logical form.*. This is denoted as **t**.
+
+Opposite a tautology, we have a condradiction, that is an assertion of Propositional Logic that is false in all situations; that is, it is false for all possible values of its variables. This is denoted as **c**.
+
+![DeMorgan1](/Pictures/De%20Morgans%20Law%201.JPG "De Morgans Law 1")
+![DeMorgan2](/Pictures/De%20Morgans%20Law%202.JPG "De Morgans Law 2")
