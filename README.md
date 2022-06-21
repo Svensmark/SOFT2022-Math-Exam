@@ -108,5 +108,9 @@ With connectives we can change or combine propersitions meanings. There's a few 
 * *p ∨ q*   - p or q
 * *p → q*   - if p, then q (implication)
 
+When connecting two propersitional statements with connectives, we have created a compound statement. This is where truth tables comes in handy, as we can see result of each possible scenario.
+
+![Schedule](/Pictures/Truthtable.JPG "Schedule")
+
 ## 8. Construction and use of regular expressions and finite state automata
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
