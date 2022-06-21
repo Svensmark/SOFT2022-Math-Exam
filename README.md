@@ -117,8 +117,6 @@ When connecting two propersitional statements with connectives, we have created 
 
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
 
-The correct definition:
-
 The compound propositions p and q are said to be logically equivalent if p ↔ q is a Tautology. Logical Equivalence is denoted by ≡ or (pil med to streger begge veje).
 
 From this we need to know what a tautology is, and the definition of a tautology is: *a statement that is true by necessity or by virtue of its logical form.*. This is denoted as **t**.
