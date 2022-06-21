@@ -91,5 +91,22 @@ After having created the priority list of the graph, we can now create the optim
 ![Schedule](/Pictures/Critical%20Path%20Schedule.JPG "Schedule")
 
 ## 7. Structure and use of conditional / propositional logic statements
+
+A proposition is an assertion, statement, or declarative sentence that can either be true or false but not both. For example, the sentence "It is raining" can either be true or false, it cannot be both. However the sentence "X is greater than 10" is not a proposition as it cannot be stated true or false without the value of N. This is used in progamming logic when something must be done if certain conditions are met.
+
+Other things that cannot be propositional statements are for example:
+
+*   Questions
+*   Imperatives (commands)
+
+Usually in conditional statements, the propersitions are denoted with p, q and r.
+
+With connectives we can change or combine propersitions meanings. There's a few ways to create connectives, and this is done with following notations:
+
+* *¬p*      - not p (inverse)
+* *p ∧ q*   - p and q
+* *p ∨ q*   - p or q
+* *p → q*   - if p, then q (implication)
+
 ## 8. Construction and use of regular expressions and finite state automata
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
