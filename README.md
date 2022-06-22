@@ -114,7 +114,44 @@ When connecting two propersitional statements with connectives, we have created 
 
 ## 8. Construction and use of regular expressions and finite state automata
 
+![RegEx1](/Pictures/Regular%20Expression%20Keywords.JPG "Regular Expressions Keywords")
+
 **Definition of Regular Expressions (RegEx):** Regular expressions allow us to check a string of characters for matches, to make sure that it conforms to a pattern to that regular expression.
+
+First of all, we must define rules of alphabet and language for given expression:
+
+**Alphabets and Languages**
+* Under regular grammar definitions some things are consistent
+* A language has valid symbols.
+* Strings of these symbols form words.
+* Strings of words form sentences
+* Rulesexist to set the boundaries for legal use of symbols (a grammar).
+* E.g.The quick brown fox jumped lazily over the green fury (legal but meaningless)
+* The fury fox lazily quick brown green jumped (legal use of alphabet but grammatically incorrect).
+
+To define an alphabet, we use Sigma.
+
+![SigmaNotation](/Pictures/Notation%20of%20Sigma.JPG "Notation of Sigma")
+
+For example: **Let Σ = {a, b}.**
+
+If we were to find Σ0, Σ1, Σ2, and Σ3
+
+![SigmaExercise](/Pictures/Sigma%20Solution.JPG "Solution of Sigma exercise")
+
+We also have to think about the notation of operators, and their position in a "sentence". Normally we have an expression such as a + b, which is written as an **infix notation**. Alternatively there's the **prefix notation** (in which the binary operator precedes the quantities on which it acts) and **postfix notation** (in which the binary operator follows the quantities on which it acts). In prefix notation, a + b is written + ab. In postfix notation, a + b is written ab +.
+
+With these rules we cam describe ways which languages can be combined to form new languages:
+
+![Language combination](/Pictures/New%20Languages%20Notation.JPG "Language combination")
+
+For example, we have 2 languages L1 and L2. They consists of the following:
+
+* L1 = {ε, aa, aaaa, aaaaaa, ...} (The set of all strings consisting of an even number of a's)
+* L2 = {b,bb,bbb}
+
+L1L2 = the set of all strings that consist of an even number of a’s followed by b or by bb or by bbb. (Concatenation)
+L1 ∪ L2 = the set that includes the strings b, bb, bbb and any strings consisting of an even number of a’s (Union)
 
 ## 9. Logical equivalence, De Morgan's laws, contradictions and tautologies
 
